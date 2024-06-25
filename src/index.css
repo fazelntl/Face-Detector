@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll::-webkit-scrollbar {
+    width: 0;
+}
+
+@layer utilities {
+    .bg-image {
+        background-image: url('./pic/Login_Start_Back1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    }
+}
+
