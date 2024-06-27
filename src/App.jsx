@@ -5,16 +5,12 @@ function App() {
   return (
     <>
       <div className="">
-        {/* <Login></Login> */}
-        {/* <Login02></Login02> */}
+        <Login/>
+        <Login02></Login02>
         <Login03></Login03>
-          <h1>
-            here we added something
-          </h1>
-     
       </div>
     </>
   );
 }
 
-// export default App;
+export default App;
