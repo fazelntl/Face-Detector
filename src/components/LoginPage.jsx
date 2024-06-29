@@ -1,7 +1,7 @@
 import logo from "../pic/Logo.png";
 import plat from "../pic/Gog,Git,Meta.png";
 
-export default function Login() {
+export default function LoginPage() {
   return (
     <>
       <div className=" backdrop-blur-md border-gray-400 border-2 flex flex-col justify-center  items-center px-16 py-10 gap-10 rounded-2xl">

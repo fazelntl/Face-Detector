@@ -1,7 +1,7 @@
 import logo from "../pic/Logo.png";
 import verified from "../pic/verified.png";
 
-export default function Login03() {
+export default function UserVerified() {
   return (
     <>
       <div className="backdrop-blur-sm w-[437px] border-gray-400 border-2 flex flex-col justify-center items-center px-16 py-10 gap-10 rounded-2xl">

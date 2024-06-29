@@ -1,13 +1,18 @@
-import Login from "./components/LoginStart_01";
-import Login02 from "./components/LoginStart_02";
-import Login03 from "./components/LoginStart_03";
+import LoginPage from "./components/LoginPage";
+import FaceDetection from "./components/FaceDetection";
+import UserVerified from "./components/UserVerified";
+import FaceNotDetected from "./components/FaceNotDetected";
+import Dashboard from "./DashBoard/Dashboard";
+
 function App() {
   return (
     <>
       <div className="">
-        <Login/>
-        <Login02></Login02>
-        <Login03></Login03>
+        {/* <LoginPage />
+        <FaceDetection></FaceDetection>
+        <UserVerified></UserVerified>
+        <FaceNotDetected /> */}
+        <Dashboard />
       </div>
     </>
   );
